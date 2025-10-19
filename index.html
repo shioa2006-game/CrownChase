@@ -1,0 +1,42 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CROWN CHASE (ESM)</title>
+
+    <!-- p5.js -->
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.11.7/lib/p5.js"></script>
+
+    <style>
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        background: #111;
+        color: #fff;
+        font-family: monospace;
+        overflow: hidden;
+      }
+      #gameContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 100vh;
+      }
+      canvas {
+        border: 2px solid #444;
+        background: #111;
+        display: block;
+      }
+    </style>
+
+    <!-- entry -->
+    <script type="module" src="./sketch.js"></script>
+  </head>
+  <body>
+    <div id="gameContainer"></div>
+  </body>
+</html>
